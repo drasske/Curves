@@ -33,7 +33,7 @@ int main(int argc, char* argv[])
 	InitChoose();
 
 	// Start with a certain project
-	static int projectNumber = 1;
+	int projectNumber = 1;
 	Project* currentProject = nullptr;
 	bool changeProject = true;
 
