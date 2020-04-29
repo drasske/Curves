@@ -14,7 +14,7 @@ int main(int argc, char* argv[])
 	SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 3);
 
 	// Create a window
-	SDL_Window* pWindow = SDL_CreateWindow("MAT 500", 0, 0, 800, 600, SDL_WINDOW_OPENGL);
+	SDL_Window* pWindow = SDL_CreateWindow("Curves", 0, 0, 800, 600, SDL_WINDOW_OPENGL);
 	SDL_SetWindowPosition(pWindow, 100, 100);
 
 	// Create a context
